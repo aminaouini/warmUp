@@ -2,3 +2,4 @@
 var x = 5;
 var y = 10;
 // 2-calculate the area of a square using varaiables.
+var z = x + y;
