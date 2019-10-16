@@ -3,7 +3,7 @@ var x = 5;
 var y = 10;
 var z = x + y;
 console.log(z);
-// 2-calculate the area of a square using varaiables.
+// 2-calculate the area of a square using varaiables./
 var a = 5
 squareArea = a * a;
 console.log(squareArea);
