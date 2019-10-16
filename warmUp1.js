@@ -7,3 +7,4 @@ var z = x + y;
 function areaSquare(x) {
 	return x * x;
 }; 
+ y = areaSquare(x);
