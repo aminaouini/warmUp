@@ -4,6 +4,6 @@ var y = 10;
 var z = x+y;
 console.log(z);
 // 2-calculate the area of a square using varaiables.
-function triangleArea(width,height){
-	return width*height/2;
+function squareArea(width,height){
+	return width*height;
 }
