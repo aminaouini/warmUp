@@ -4,9 +4,23 @@
 //you can only add one at each summetion, you'll need to use recursion in this.
 
 
-function gcd(x , y) {
-
+function gcd (x,y){
+    if (x % y === 0 ){
+        return y;
+    }
+    return gcd(y , x % y);
 }
+
+/////////////////////////////////////////////////
+
+function sum2(x , y) {
+    if (x === 0){
+        return y;
+    }
+    return sum(--x, ++y)
+}
+
+/////////////////////////////////////////////////
 
 function inc(y) {
     return y = y + 1;
@@ -21,5 +35,8 @@ function sum(x , y) {
     }
     return sum(dec(x), inc(y))
 }
+
+
+
 
 
