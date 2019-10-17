@@ -2,3 +2,13 @@
 // 2-Write a function called sum that accepts two numbers as parameters, and sum them together but without suming them togther directly
 //you can only add one at each summetion, you'll need to use recursion in this.
 
+function sum(x,y){
+	if( x === 0){
+		return y;
+	} else 
+		return  sum(x-1,y+1);
+}
+
+
+
+
