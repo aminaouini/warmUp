@@ -7,11 +7,11 @@
 
 function greatestCommonDivisor(a, b) {
 
-	if ((a % b === 0) || b === 0){
+	if (a%b === 0){
 		return b;
 		};
 
-	return greatestCommonDivisor(a, b - 1); 
+	return greatestCommonDivisor(b, a%b); 
 };
 
 
