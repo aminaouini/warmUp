@@ -3,7 +3,7 @@
 // and sum them together but without suming them togther directly
 //you can only add one at each summetion, you'll need to use recursion in this.
 
-
+// a
 function gcd (x,y){
     if (x % y === 0 ){
         return y;
