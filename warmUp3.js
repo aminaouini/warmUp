@@ -6,3 +6,22 @@
 // 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
 
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
+var arrays = ["famela1", 'female2','male1','male2','yousif','saif']
+
+function middel(arr){
+	//var tmpArr = [];
+	arrLenght = arr.length - 2;
+	var tmpArr =arr.splice( 1, arrLenght)
+	return tmpArr;
+
+}
+
+
+function multEvenIndex(arr){
+	for (var i = 0; i < arr.length; i++) {
+		if (typeof arr[i]=== "number" && i % 2 === 0){
+			arr[i] =arr[i]* 2;
+		}
+	}
+	
+}
