@@ -19,7 +19,7 @@ function arrayMiddle(array){
 }
 function multiplyBy2 (array){
     for(var i = 0 ;i<array.length;i++){
-        if (typeOf (array[i])==='number'&& i % 2 === 1){
+        if (typeof (array[i])==='number'&& i % 2 === 1){
             array[i]=array[i]*2
         }
     }
