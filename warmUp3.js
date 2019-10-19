@@ -19,6 +19,7 @@ function middle(arr){
 
 
 
+<<<<<<< HEAD
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 function x (arr){
     for(var i=0; i<arr.length; i++){
@@ -26,3 +27,6 @@ function x (arr){
             arr[i] = i * 2;
     }
 }
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
