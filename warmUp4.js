@@ -23,3 +23,17 @@ var sliced;
 
 // 2-write a function that takes array of strings and returns an array of the strings that have the same length
 // example :  ['hi','hello','welcome','hy'] == > ["hi","hy"]
+
+function sameStringLength(array) {
+var	similarStringlengthArr = [];
+	for (var i = 0; i < array.length; i++) {
+		for (var j = 0; j < i ; j++) {
+		
+			if(array[j].length === array[i].length) {
+					(similarStringlengthArr.push(array[i] , array[j]));
+			}
+		}
+	}
+		return similarStringlengthArr;
+}
+////end
