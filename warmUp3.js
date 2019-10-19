@@ -6,6 +6,7 @@ var femaleClassmates = ['Ruba', 'Amera', 'Ensaf', 'Uns'];
 var maleClassmates = ['Hashem', 'Salem', 'Heni', 'Hammam', 'Muftah', 'Malik'];
 var instructors = ['Matt', 'Seif', 'Yousef'];
 // 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
+<<<<<<< HEAD
 function middleElement(array){
 	return array[Math.floor(array.length/2)]
 }
@@ -17,3 +18,7 @@ function twoXEven(array){
 		return element
 	})
 }
+=======
+
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
