@@ -17,11 +17,13 @@ function reverseStr(str){
 
 function wordsWithTheSameLength(array){
     var result = [];
-    for(var i = 0; i < array.length - 1; i++){
-        if(array[i].length === array[i+1].length){
-            result.push(array[i]);
-            result.push(array[i+1]);
-        } 
+    for(var i = 0; i < array.length; i++){
+		for(var j = 0; j < i; j++){
+            if(array[i].length === array[j].length){
+                result.push(array[i]);
+                result.push(array[j]);
+            } 
+        }  
     }
     return result;
 }
