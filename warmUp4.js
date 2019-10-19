@@ -21,17 +21,11 @@ function reverseString (string){
 }
 function samelength(array){
     var arr=[];
-    var a =0;
     for(var i = 0; i < array.length; i++){
         for(var j = i+1; j < array.length; j++){
-           
-            
-            if(array[i].length=== array[j].length){
-                
-                    arr[a].push(array[i]);
-                    a++
-                    arr[a].push(array[j]);
-                    a++
+            if(array[i].length=== array[j].length)
+                    arr.push(array[i]);
+                    arr.push(array[j]);     
             }
         }
 
