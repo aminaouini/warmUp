@@ -6,6 +6,7 @@ var nameOfMales = ['firas','wajdi','allam'] ;
 var nameOfFemales = ['fooz','lina','houda'] ;
 var nameOfInstructors = ['seif','youssef','matt'] ;
 // 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
+<<<<<<< HEAD
 function middle(array){
 return array[Math.floor(array.length / 2 )]
 }
@@ -18,3 +19,7 @@ for (var i = 0 ;i<array.length;i++){
 	}
 return array;
 }
+=======
+
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
