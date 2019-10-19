@@ -20,6 +20,7 @@ function middle(array) {
 
 console.log(middle(names));
 
+<<<<<<< HEAD
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 var numbers= [1,1,1,1,1,1,1];
 
@@ -34,3 +35,6 @@ function multipliedByTwo(numbers) {
 
 console.log(multipliedByTwo(numbers));
 
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
