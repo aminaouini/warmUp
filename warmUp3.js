@@ -15,6 +15,7 @@ function middleElement(array){
 	return array[middle];
 }
 
+
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 function multiplyBy2(array){
 	for(var i = 0; i < array.length; i++){
@@ -24,3 +25,4 @@ function multiplyBy2(array){
 	}
 	return array;
 }
+

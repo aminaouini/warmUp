@@ -22,3 +22,5 @@ function sum(number1, number2){
 	return number1 + sum(1, number2 - 1);
 }
 
+//you can only add one at each summetion, you'll need to use recursion in this.
+
