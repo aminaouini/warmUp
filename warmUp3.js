@@ -19,6 +19,7 @@ function returnMiddle(array){
 
 
 
+<<<<<<< HEAD
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 /*for (){if i % 2 === 0 {array[i] = array[i] * 2}}*/
 function multiplyEven(array){
@@ -28,3 +29,6 @@ function multiplyEven(array){
 		}
 	}
 }
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
