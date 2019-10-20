@@ -21,32 +21,6 @@ function reverseString(str){
 // example :  ['hi','hello','welcome','hy'] == > ["hi","hy"]
 
 function sameLength(array){
-    var result = []
-    var j = 0 
-    var counter = 0 ;
-    for (var j = 0 ; j < array.length ; j++){
-        var test = array[j]
-        result.push(test)
-        for(var i = j+1 ; i < array.length; i++){
-            if (array[i].length = result.length){
-                result.push(test)
-                counter++
-            }
-            counter = 0 
-        }
-}
-    console.log(array)
-    console.log(counter)
-    //var elementDel = array.length-counter
-   // console.log(elementDel)
-    //result.splice(0,elementDel)
-    return result
-}
-['hi','hello','welcome','hy'] == > ["hi","hy"] 
-
-{hi:2, hif:3, hi:hi}
-
-function test(array){
 
     var obj = {}
     obj[array[0].length] = [array[0]]
