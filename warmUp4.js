@@ -31,9 +31,7 @@ function sameLength(array){
             obj[array[i].length] =  [array[i]]
             console.log(obj[array[i].length] )
         }else {
-            var newTab = obj[array[i].length]
-            newTab.push(array[i])
-            obj[array[i].length] = newTab 
+            obj[array[i].length].push(array[i])
         }
     }
     //to get the most repeated word with the same length 
