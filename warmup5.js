@@ -40,8 +40,7 @@ var mate ={firstName: 'Houda', lastName: 'Rouaissi', Age: 26, gendre : 'female'}
 
 function createClassmate(mate){
 	var array = [];
-	for (var i = 0; i <array.length; i++) {
-		array.push(mate);
-		}
+	array.push(mate);
+	
 	return array;
 }
