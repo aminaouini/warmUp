@@ -13,7 +13,7 @@
 function sum(n1, n2){
 	var s = n1 + n2;
 	var summ = 0;
-	if(summ !== s){
+	if(summ < s){
 		summ++
 	}
 	return summ;
