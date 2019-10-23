@@ -2,6 +2,7 @@
 //followed by a number starting from zero(solve it using while loop).
 // example:    reverseStr('hello'); "o1l2l3e4h"
 
+<<<<<<< HEAD
 function reverseStr(string){
 	
 var i = string.length-1;
@@ -35,3 +36,8 @@ function returnStr(array){
 }
 
 
+=======
+
+// 2-write a function that takes array of strings and returns an array of the strings that have the same length
+// example :  ['hi','hello','welcome','hy'] == > ["hi","hy"]
+>>>>>>> 23365da0003ff614627c4b0acebb2b773bb048fa
