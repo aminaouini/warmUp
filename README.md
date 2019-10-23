@@ -63,3 +63,25 @@ example:
       - write a function called addFriend that takes a mate as an argument and add it to you classMates arraya.
       - calculate the number of male friends that your class have by writing a function called nbOfMale.
       - Write a function searchMates that, given a query and an array of Mates, searches the array of mates for "matching" mate. You will decide what way you want to write your search algorithm.
+
+
+## Sixth Warm Up
+
+### Questions
+
+1- implement the function mult that takes a single parameter n, and computes the multiplication of all integers up to n starting from 0, e.g.:
+
+```javascript
+mult(3); // => 6
+mult(4); // => 24
+
+function mult(n) {
+ // your code is here
+}
+```
+
+2 - Use a while loop to build a single string with the numbers 1 through n separated by the number next to the current number. Have it return the new string.
+
+```javascript
+// eg => 1 2 2 3 3 4 4 5 5 6 6 ...
+```
