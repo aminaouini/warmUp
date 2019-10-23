@@ -16,11 +16,24 @@ function equalStrings(arr) {
 	var str = [];
 	var tmpStr='';
 	for (var i = 0; i < arr.length; i++) {
-		for (var j = i; j < arr.length; j++) {
-			if(arr[i].length === arr[j].length)
+		
+			if(arr[i].length === arr[i+1].length)
+				
 			str.push(arr[i]) 
-			str.push(arr[j])		 
+			//str.push(arr[j])		 
 			}
+		
+		return str
+	} 
+	
+	function equalStrings(arr) {
+	var str = [];
+	arr.push('');
+	var tmpStr='';
+	for (var i = 0; i <= arr.length; i++) {
+		if (arr[i].length === arr[i].length)
+			str.push(arr[i])
+			str.push(arr[i+1])
 		}
 		return str
 	} 
