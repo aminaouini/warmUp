@@ -10,6 +10,7 @@
 
 // 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
 
+<<<<<<< HEAD
 
 
 
@@ -27,3 +28,6 @@ function double(number){
 
 
 
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 23365da0003ff614627c4b0acebb2b773bb048fa
