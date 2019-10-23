@@ -2,7 +2,7 @@
  //starting from 0, e.g.:
  mult(3); // => 6
  mult(4); // => 24
- 
+
  function mult(n) {
  	var result = 1;
  	for (var i = 0; i < n; i++) { 
@@ -16,3 +16,17 @@
 // separated by the number next to the current number. 
 //Have it return the new string.
 // eg= 1 2 2 3 3 4 4 5 5 6 6 ...
+
+var stringOfN = function (n) {
+	var str = '';
+	while (str.length < n) {
+		for (i = 1; i <= n; i++){
+			if (i === n) {
+				str = str + ' ' + i;
+			}else {
+				str = str + ' ' + i + ' ' + (i + 1);
+			}
+		}
+	}
+	return str;
+}
