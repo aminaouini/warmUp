@@ -34,8 +34,8 @@ function addFrinde(obj){
 // function called nbOfMale.
 function nbofMale(array){
     var numOfMale = 0;
-    for(var i = 0; i<array.length; i++){
-        if(array[i].gender === 'male'){
+    for(var key in array){
+        if(array[key].gender === 'male'){
             numOfMale = numOfMale + 1;
         }
     }
@@ -46,8 +46,8 @@ function nbofMale(array){
 //what way you want to write your search algorithm.
 function searchMates(query, array){
     var result = '';
-    for(var i =0; i<array.length; i++){
-        if(array[i].age === 23){
+    for(var key in array){
+        if(array[key].age === 23){
             result = age;
         }
     }

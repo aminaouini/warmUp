@@ -8,16 +8,17 @@
 // example :  ['hi','hello','welcome','hy'] == > ["hi","hy"]
 
 function sameLengthOfString(array){
-	var i = 0 ;
-	var result = [];
-	while(i <array.length){
-       if(array[i].length == array[i].length){
-         result[i] = result[i] + array[i];
+  var result = [];
+	for(var i = 0; i < array.length; i++){
+    for(var j= 1; j<i;i++){
+       if(array[i].length === array[j].length){
+         result.push(array[i]);
          // console.log(array[i].length);
+       }
      }
-       i++;
+    }
+     return result ;
 	 }
 
-   return result ;
+   
    // console.log(array[i]); ;
-}
