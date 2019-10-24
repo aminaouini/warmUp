@@ -12,6 +12,13 @@ function mutipleOfThree(n) {
 	}
 }
 // 3-calculate the average age of the follwing ages [13,14,13,15,16,17,19,13,16,15]
+function calcAvg(array){
+	var count = 0;
+	for (i=0; i < array.length; i++){
+		count = count + array[i];
+	}
+	return count / array.length;
+}
 // 4-calculate your age in seconds.
 
 // your code is here
