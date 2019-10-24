@@ -26,7 +26,7 @@ var classmates = [mate1, mate2, mate3];
 
 function displayFriend(mate) {
 	return 'Mate Name: '+ mate.name +'\nAge: '+mate.age+ 'gender' +;
-}
+} 
 
 function addFriend(mate) {
 	classmates.push(mate);
