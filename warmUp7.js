@@ -20,6 +20,9 @@ function calcAvg(array){
 	return count / array.length;
 }
 // 4-calculate your age in seconds.
+function ageInSec(age) {
+	return age * 365 * 24 * 60 * 60;
+}
 
 // your code is here
 
