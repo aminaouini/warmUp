@@ -4,3 +4,60 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+
+
+
+//Q1
+
+
+function fullname(first, last) { 
+       return first + ' ' + last; 
+   }
+    var fullname = function(first, last){
+    	return first + ' ' + last; 
+    };
+
+
+
+
+
+//Q2
+
+	
+function findNumber(n) { 
+       return n * n * n; 
+ } 
+ var cube = function(x) {
+ 	return n * n * n;
+ };
+
+
+
+//Q3
+
+
+
+
+
+
+
+//Q4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
