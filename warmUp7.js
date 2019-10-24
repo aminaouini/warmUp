@@ -15,10 +15,12 @@
  // 2 //
 
  function multiple (n) {
- 	if ( n % 3 !=== 0 ) {
- 		return 'n is not multiple by 3' ;
+ 	if ( n % 3 !== 0 ) {
+ 	return n +' ' +' is not multiple by 3' ;
+ 	}   else {
+ 		return n +' '+ ' is a multipl of 3' ;
  	}
- }
+}
 
  //  3  //
 
