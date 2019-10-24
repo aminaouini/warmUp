@@ -4,3 +4,25 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+
+
+
+var partner = {firstName: "dhia", lastName: "raisi"}
+
+function combinedName(obj){
+	
+	var comb = obj.firstName + " " + obj.lastName ;
+	return comb;
+}
+
+function avrege(array){
+	var avg =0;
+	for (var i = 0; i < array.length; i++){
+		avg= avg + array[i];
+	}
+	
+	return avg /array.length ;
+}
+function ageSecond(num){
+	return num*12*24*60*60;
+}
