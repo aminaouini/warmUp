@@ -51,5 +51,4 @@ var	queryArr=[];
 		return queryArr;
 }
 arr = [{Name: 'adam', age: '18', gender: 'male'},{Name: 'ALi', age: '21', gender: 'male'}];
-////THE END
-
+////
