@@ -1,5 +1,5 @@
 // 1-using + operator combine your partner first and last name .
-var partnerName = 'Essam' + 'Faraj'
+var partnerName = 'Essam ' + 'Faraj'
 
 // 2-find if the number 13 is a multiple of 3 or not.
 function checkNumber13() {
