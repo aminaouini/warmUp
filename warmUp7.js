@@ -14,7 +14,7 @@ function combinedName(obj){
 	var comb = obj.firstName + " " + obj.lastName ;
 	return comb;
 }
-
+.02
 function avrege(array){
 	var avg =0;
 	for (var i = 0; i < array.length; i++){
