@@ -6,6 +6,7 @@
 //     -write a function called addFriend that takes a mate as an argument and add it to you classMates arraya.
 //     -calculate the number of male friends that your class have by writing a function called nbOfMale.
 //     -Write a function searchMates that, given a query and an array of Mates,
+<<<<<<< HEAD
 //           searches the array of mates for "matching" mate. You will decide what way you want to write your search algorithm.
 
 
@@ -36,3 +37,6 @@ function displayFriend(array){
 
 	return newArr;
 }
+=======
+//           searches the array of mates for "matching" mate. You will decide what way you want to write your search algorithm.
+>>>>>>> 53bc200a820913843d17cdb55e2d8c895974ce20
