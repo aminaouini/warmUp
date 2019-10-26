@@ -1,0 +1,41 @@
+body {
+	background: blue;
+}
+nav {
+	height: 40px;
+	background: grey;
+}
+ul {
+	list-style: inline;
+}
+a {
+	list-style-type: none;
+}
+
+div {
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.imageStyle {
+
+	box-sizing: border-box;
+	size: 50px
+
+}
+
+button {
+	padding: 20px;
+}
+.buttonStyle {
+	margin: 10px
+}
+#b1 {
+	font-family:bold;
+	margin: 10px;
+
+}
+#b2 {
+	font-family: initial;
+	margin: 10px;
+}
