@@ -33,3 +33,32 @@ function sameLength(array) {
     }
     return acc;
 }
+
+function sameLength2(array){
+    var maxLength = array[0].length;
+    var minLength = array[0].length;
+    for (var i = 0; i < array.length; i++) {
+        if (maxLength < array[i].length) {
+            maxLength = array[i].length;
+        }
+        if (minLength > array[i].length) {
+            minLength = array[i].length;
+        }
+
+    }
+    console.log(maxLength , minLength);
+
+	for (var i = minLength; i <= maxLength; i++) {
+        var sameStrArr = [];
+        for (var j = 0; j < array.length; j++) {
+            if (array[j].length === i) {
+                sameStrArr.push(array[j])
+            }
+        }
+
+        if (sameStrArr.length > 1) {
+            console.log(sameStrArr);
+        }
+        sameStrArr = [];
+    }
+}
