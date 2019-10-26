@@ -19,10 +19,17 @@ function reduce(array, f, initial){
 
 //I used array.indexOf() to find if the elements of the sub array are present inside the big array or not.
 function isSubset(array, sub){
+    var res = true;
     if (sub.length >= array.length) {
         return false;
     }
     return reduce(sub, function(acc, elm){
+        if(array.indexOf(elm) > -1) {
+            res = acc && (array.indexOf(elm) > -1);
+            array.splice(array.indexOf(elm), 1);
+            return res;
+            
+        }
         return acc && (array.indexOf(elm) > -1);
     },true)
 }
