@@ -3,6 +3,7 @@ var females= ["Hania", "Fatima", "Ons", "Ruba", "Fadhila", "Rahma"];
 var males = ["Ahmed", "Mohammed", "Sbeta", "Abdulsalam", "Farouq", "Abdulrahman"];
 var instructors= ["Seif", "Yousef", "Tammy"];
 
+<<<<<<< HEAD
 
 function extract (arr){
 	str= "";
@@ -34,3 +35,6 @@ function evenMultiplyBy2 (arr){
 	}
 	return arr;
 }
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
