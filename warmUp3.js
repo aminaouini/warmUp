@@ -5,6 +5,7 @@
 
 // 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
 
+<<<<<<< HEAD
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 var classfemales =['lina','roba','hania','mouna','imen','eya'];
 var classmales=['amine','salim','hani','mahdi','salah','sebeta'];
@@ -25,3 +26,6 @@ function multiplyBy2 (array){
     }
     return array
 }
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
