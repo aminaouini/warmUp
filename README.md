@@ -95,7 +95,7 @@ function mult(n) {
 
  2- find if the number 13 is a multiple of 3 or not.
 
- 3- calculate the average age of the follwing ages ```javascript [13,14,13,15,16,17,19,13,16,15] ```.
+ 3- calculate the average age of the follwing ages ``` [13,14,13,15,16,17,19,13,16,15] ```.
 
  4- calculate your age in seconds.
 
@@ -107,7 +107,22 @@ function mult(n) {
 1- create a function isSubset that should take two arrays and determine whether the second array is a subset of the first array. For example:
 
 ```javascript
-			  array: [ 1, 2, 3, 4 ], sub:[ 2, 3, 4 ] => true
-              array: [ 2, 2, 2, 3, 4 ], sub:[ 2, 4, 3 ] => true
-              array: [ 2, 3, 3, "a" ],  sub:[ 3, 3, 3, "a" ] => false
+array: [ 1, 2, 3, 4 ], sub:[ 2, 3, 4 ] => true
+array: [ 2, 2, 2, 3, 4 ], sub:[ 2, 4, 3 ] => true
+array: [ 2, 3, 3, "a" ],  sub:[ 3, 3, 3, "a" ] => false
 ```  
+
+## Nineth Warm Up
+
+### Questions
+
+1- Create an HTML file.
+2- Create a CSS file.
+3- link the CSS file to the HTML file.
+4- The page should have a header, body and footer.
+5- Change the background color of the body to be blue.
+6- Insert Three images next to each other.
+7- Create Two buttons and use different font family for each button.
+8- Create an unordered list with three anchor tags in it.
+9- Place In the footer a copyright claimer.
+10- Have Fun.

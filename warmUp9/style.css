@@ -1,0 +1,31 @@
+body {
+	background: #0073aa;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#first {
+	border: 1px solid orangered;
+	background: #f15050;
+}
+
+h1 {
+	text-align: center;
+}
+
+.column {
+	margin: 3%;
+}
+
+#btn-san {
+	font-family: sans-serif;
+}
+
+#btn-comic {
+	font-family: comic;
+	font-weight: 900;
+}
