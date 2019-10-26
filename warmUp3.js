@@ -20,6 +20,7 @@ function warmUp3_2(arr){
 	return newArr
 }
 
+<<<<<<< HEAD
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 
 function warmUp3_3(arr){
@@ -36,3 +37,6 @@ function warmUp3_3(arr){
 	}
 	return newArr
 }
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 53bc200a820913843d17cdb55e2d8c895974ce20
