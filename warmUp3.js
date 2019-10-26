@@ -8,7 +8,6 @@ var males = ['Ahmed', 'Omar', 'Mohammed', 'Salem'];
 var instructors = ['Yousef', 'Seif', 'Matt', 'Hugh', 'Tamara'];
 
 // 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
-
 function getMidElement(arr) {
 	//Check if the input is an array else return invalid input
 	if(Array.isArray(arr) && arr.length > 1){
@@ -45,3 +44,4 @@ function evenIndexByTwo(arr) {
 		return 'invalid input';
 	}
 }
+
