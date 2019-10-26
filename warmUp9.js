@@ -1,5 +1,5 @@
 // Create an HTML file
-// Create a CSS file
+// Create a CSS file 
 // link the CSS file to the HTML file
 // The page should have a header, body and footer
 // Change the background color of the body to be blue
