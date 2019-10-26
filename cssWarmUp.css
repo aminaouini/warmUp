@@ -1,0 +1,31 @@
+
+
+body {
+	background-color: blue;
+}
+
+
+.img {
+	display: inline;
+}
+
+#button_1 {
+	display: block;
+	margin: 20px;
+	font-family: 'Arial';
+	font-size: 20px;
+	color: red;
+}
+
+#button_2 {
+	display: block;
+	margin: 20px;
+	font-size: 22px;
+	color: orange;
+}
+
+
+.list li a{
+	text-decoration: none;
+	color: white;
+}
