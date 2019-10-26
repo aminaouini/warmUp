@@ -1,0 +1,12 @@
+body {
+    background-color: blue;
+}
+#yeah {
+    font-family: 'Franklin Gothic Medium';
+}
+#nop {
+    font-family: 'Times New Roman';
+}
+#images {
+    display: flex;
+}
