@@ -1,0 +1,16 @@
+body {
+	background-color: blue;
+}
+
+img {
+	height: 200px;
+	width: auto;
+}
+
+#b1 {
+	font-family: serif;
+}
+
+#b2 {
+		font-family: sans-serif;
+}
