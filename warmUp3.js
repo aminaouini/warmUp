@@ -2,6 +2,7 @@
 // -name of females in your class
 // -name of males in your class
 // -name of your class instructors 
+<<<<<<< HEAD
 females = ['rahma', 'ouns', 'koloud'];
 males = ['ahmad', 'abdlrrahman', 'ali'];
 instructors = ['seif', 'yousof', 'matt'];
@@ -60,3 +61,9 @@ function multiplybytwo(array){
 }
 
 multiplybytwo(numbers);
+=======
+
+// 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
+
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 5351c491bef905428a1af3ea57f32fb6874d8e38
