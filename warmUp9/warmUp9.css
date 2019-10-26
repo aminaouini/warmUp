@@ -1,0 +1,34 @@
+body {
+	background-color: #559;
+}
+
+img {
+	height: 300px;
+}
+
+header {
+	font-family: cursive;
+	color: #AAF;
+}
+
+.question {
+	font-family: monospace;
+}
+
+.links {
+	font-family: monospace;
+}
+
+#yes-btn {
+	color: green;
+	font-family: monospace;
+}
+
+#no-btn {
+	color: red;
+	font-family: cursive;
+}
+
+small {
+	color: #225
+}
