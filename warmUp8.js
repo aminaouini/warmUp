@@ -14,19 +14,25 @@ function isSubset(array1,array2) {
 	 for (var j = 0; j <= array1.length-1; j++){
 	   if(array2[i] === array1[j]){
 		   result = result + 1 ; 
-		   array2.shift()
+		   array2.splice(i,1)
+		   console.log(array2)
 		   }
       
 	   }
 
 	 }
+	 if(array2.length === 0){
+	 	return true;
+	 }else{
+	 	return false;
+	 }
  
 
-	if (result === test){
-     truefalse = true ;
-	}else if(result !== test){
-		 truefalse = false ;
-	}
+	// if (result === test){
+ //     truefalse = true ;
+	// }else if(result !== test){
+	// 	 truefalse = false ;
+	// }
 
 	return truefalse;
 }
