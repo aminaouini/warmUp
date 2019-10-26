@@ -11,9 +11,11 @@
 function isSubset(array, sub) {
 	
 	for (i=0; i < array.length; i++) {
-		if (sub[0] === array[i]) {
-		sub.slice(0, 1);
+		for (j=0; j < sub.length; j++){
+		if (sub[j] === array[i]) {
+		sub.slice(j, 1);
 		console.log(sub)	
+	}
 	}
 	if (sub.length === 0) {
 	return true;
