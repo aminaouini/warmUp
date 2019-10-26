@@ -34,6 +34,7 @@ function warmup(array){
 	
 }
 
+<<<<<<< HEAD
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 var arr = [2,3,4,5,6,7,8];
 
@@ -48,3 +49,6 @@ function evenIndexes(array){
  }});
  return newArray;
 }
+=======
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> 23365da0003ff614627c4b0acebb2b773bb048fa
