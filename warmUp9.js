@@ -8,3 +8,19 @@
 // Create an unordered list with three anchor tags in it
 // Place In the footer a copyright claimer
 // Have Fun
+
+// the css file
+
+
+	body  { 
+ 	background-color: blue;
+}
+
+	.button1 {
+		font-family: inherit;
+	}
+	.button2 {
+		font-family: initial;
+	}
+
+
