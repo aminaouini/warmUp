@@ -15,6 +15,9 @@ function gcd(num1, num2) {
 	}
 }
 // 2-Write a function called sum that accepts two numbers as parameters, and sum them together but without suming them togther directly
+<<<<<<< HEAD
+//you can only add one at each summetion, you'll need to use recursion in this.
+=======
 //you can only add one at each summetion, you'll need to use recursion in this.
 function sum(num1,num2) {
 	if (num2 === 0 ) {
@@ -22,3 +25,4 @@ function sum(num1,num2) {
 	}
 	return 1 + sum(num1, num2 - 1)
 }
+>>>>>>> a2e919fe5e4deb9c4578191449d09344b473734a
