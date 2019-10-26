@@ -1,0 +1,57 @@
+body {
+	background-color: blue;
+}
+
+img {
+	margin: 25px 60px;
+}
+
+#button1 {
+	padding: 10px 15px;
+	font-family: sans-serif;
+	border-radius: 4rem;
+	border-color: transparent;
+	background-color: green;
+	margin-right: 30px;
+}
+
+#button2 {
+	padding: 10px 15px;
+	font-family: Tahoma;
+	border-radius: 4rem;
+	border-color: transparent;
+	background-color: purple;
+}
+
+ul {
+	margin-top: 40px;
+	list-style: none;
+}
+
+ul li {
+	text-decoration: none;
+	display: inline;
+	padding: 4px 15px;
+}
+
+ul li a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 16pt;
+	transition: .5s all
+}
+
+ul li a:hover {
+	background-color: purple;
+	font-size: 16pt;
+	border-radius: 16rem;
+	padding: 10px;
+	transition: .5s all
+}
+
+footer {
+	margin-top: 240px;
+	background-color: grey;
+	background-size: cover;
+}
