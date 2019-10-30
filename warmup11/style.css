@@ -1,0 +1,15 @@
+section {
+	display: flex;
+}
+
+#lUl {
+	background-color: #FF00FF;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+#rUl {
+	background-color: #00FF00;
+	font-size: 20px;
+	font-family: sans-serif;
+}
