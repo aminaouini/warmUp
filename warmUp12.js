@@ -25,18 +25,18 @@ Technical Details
 
  function mysteryRange(inputString, n) {
     var numbers = inputString.split("");
+    var rangeArr = [];
     var newArr = [];
 
     for (var i = 0; i < numbers.length; i++){
         var num = numbers[i] + numbers[i+1];
 
+            rangeArr.push((num))    
+            rangeArr.push((num))
         
-         if (n < 100 && n > 0){ 
-            
-            newArr.push(Math.min(...numbers))    
-            newArr.push(Math.max(...numbers))
-        }
     }   
+    newArr.push(Math.min(...rangeArr));
+    newArr.push(Math.max(...rangeArr));
         
     return newArr;
  }
