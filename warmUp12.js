@@ -29,10 +29,13 @@ Technical Details
     var newArr = [];
 
     for (var i = 0; i < numbers.length; i++){
-        var num = numbers[i] + numbers[i+1];
+        var lowRange = n / 2;
+        var highRange = n * 2;
 
-            rangeArr.push((num))    
-            rangeArr.push((num))
+        if (n <= highRange && n >= lowRange){
+            rangeArr.push(numbers[i])    
+        }
+            
         
     }   
     newArr.push(Math.min(...rangeArr));

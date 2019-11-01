@@ -31,3 +31,58 @@
             filter_list([1,'a','b',0,15]) == [1,0,15]
             filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 */
+
+
+//1.
+
+function romanToNumericNumbers(RomanNumber) {
+    var splitednumbers = RomanNumber.split("");
+    var result = 0;
+    for (var i = 0; i < splitednumbers.length; i++) {
+       if (splitednumbers[i] === 'I') {
+            result += 1;
+       }
+
+       if (splitednumbers[i] === 'V') {
+            result += 5;
+       }
+
+       if (splitednumbers[i] === 'X') {
+            result += 10;
+       }
+
+       if (splitednumbers[i] === 'L') {
+            result += 50;
+       }
+
+       if (splitednumbers[i] === 'C') {
+            result += 100;
+       }
+
+       if (splitednumbers[i] === 'D') {
+            result += 500;
+       }
+
+       if (splitednumbers[i] === 'M') {
+            result += 1000
+       }
+    }
+
+    return result;
+}
+
+// 2.
+
+function toCamelCase (string) {
+    var result = "";
+
+    for (var i = 0; i < string.length; i++) {
+        if (string[i] === "_" || string[i] === "-") {
+            string[i] = "";
+            string[i+1] = string[i+1].toUpperCase();
+        }
+        result = resault + string[i];
+    }
+
+    return result;
+}
