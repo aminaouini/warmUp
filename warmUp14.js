@@ -19,5 +19,29 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 */
 
 var maxProfit = function(prices) {
-  // YOUR CODE HERE
+	var maximum;
+	var obj = {}
+	obj.sell = sell;
+	obj.day1 = prices;
+	obj.newStocks = newStocks;
+	
+	return obj;
 };
+
+var newStocks = function(newPrices, date) {
+	this.date = newPrices;
+}
+
+var sell = function(date) {
+	if (this.date === true){ 
+		for (var i = 0; i < this.date.length; i++) {
+			if (this.date[i] > this.date[i+1]){
+				maximum = this.date[i];
+			}
+			if (this.date[i] < this.date[i+1]){
+				maximum = this.date[i+1];
+			}
+		}
+		return 'here is your money : $' + maximum;
+	}
+} 
