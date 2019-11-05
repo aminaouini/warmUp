@@ -39,7 +39,7 @@ function split(string, character) {
 	return arr;	
 }
 
-function reverseStr(str) {
+function reverseStr1(str) {
 
 }
 
