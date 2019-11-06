@@ -4,42 +4,43 @@
 //
 //
 // Note : you can`t use any built-in functions .
-
-function reverseStr(str) {
-	var newStr = "";
-
-	for (var i = str.split(' ').length + 1; i >= 0; i--) {
-		if (i === str.split(' ').length + 1) {
-			newStr = newStr + str.split(' ')[i]
-		}
-		if (i >= 0) {
-			newStr = newStr + " " + str.split(' ')[i]
-		}
-		
-	}
-
-	return newStr
-}
-
-
-function split(string, character) {
+​
+​
+function reverseSplit(string, character) {
 	var arr = [];
 	var str = "";
-
+​
 	for (var i = 0; i < string.length; i++) {
-			if (string[i] !== character){
-				str = str + string[i]
-			}
-			if (string[i] === character) {
-				arr.push(str);
-				str = "";
-			}
+		if (string[i] !== character){
+			str = str + string[i];		
+		}
+​
+		if (string[i] === character) {
+			arr.unshift(str);
+			str = "";
+		}
 	}
-
+	arr.unshift(str);
+​
 	return arr;	
 }
-
-function reverseStr1(str) {
-
+​
+function reverseStr(str) {
+​
+	var newStr = "";
+​
+	for (var i = 0; i < reverseSplit(str, " ").length; i++) {
+		if(i === reverseSplit(str, " ").length-1){
+			newStr = newStr + reverseSplit(str, " ")[i]
+		}
+		if (i < reverseSplit(str, " ").length-1) {
+			newStr = newStr + reverseSplit(str, " ")[i] + " ";
+		}
+		
+		console.log(newStr)
+​
+	}
+​
+	return newStr;
+​
 }
-
