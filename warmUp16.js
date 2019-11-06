@@ -16,3 +16,29 @@
 // Constraints:
 // 1 <= text.length <= 10^4
 // text consists of lower case English letters only.
+
+function warmUp16(string) {
+	var balloon = "balloon";
+	var str = "";
+	var result = 0;
+	var count = 0;
+
+	if (string.length === 10^4) {
+		result = result + 1;
+	}
+	for (var x = 0; x < string.length; x++) {
+		
+		while (balloon !== str) {
+			if (string[x] === balloon[count]) {
+				str = str + string[x];
+
+			}
+			if (str === balloon) {
+				result = result + 1;
+				str = "";
+			}
+			count = count + 1;
+		}
+	}
+	return result;
+}
