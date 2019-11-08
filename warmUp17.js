@@ -27,6 +27,22 @@
 
 // ​
 // ​
-// var calculateTime = function(keyboard, word) {
-    
-// };
+var calculateTime = function(keyboard, word) {
+   var time = 0;
+   var wincard = false;
+   if (word.length <= 10^4 && word.length >= 1) {
+   		for (var i = 0; i < word.length; i++) {
+    		for (var x = 0; x < keyboard.length; x++) {
+    			if (word[i] !== keyboard[x] && wincard === false) {
+    				time++;
+    			}
+    			if (word[i] === keyboard[x]) {
+    				wincard = true;
+    			}
+    		}
+    		wincard = false;
+    	}
+   }
+
+   return time;
+};
